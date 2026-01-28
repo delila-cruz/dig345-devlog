@@ -5,12 +5,12 @@ import starlight from '@astrojs/starlight';
 // Astro config docs https://astro.build/config
 export default defineConfig({
 	// required to publish on GH Pages
-	site: 'https://omundy.github.io',
+	site: 'https://delila-cruz.github.io',
 	base: '/dig345-devlog',
 	integrations: [
 		// Startlight-specific config
 		starlight({
-			title: 'Owen\'s DevLog',
+			title: 'Delila\'s DevLog',
 			sidebar: [
 				{ label: 'Schedule', autogenerate: { directory: 'schedule' }, },
 			],
